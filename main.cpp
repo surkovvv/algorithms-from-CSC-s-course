@@ -47,6 +47,7 @@ void encode_tree(Node* node) {
 int main() {
     int k, size = 0;
     std::string s, code;
+    std::cout << "Enter the line to encode" << '\n';
     std::cin >> s;
     if (s.size() > 1) {
         std::unordered_map<char, int> frequencies;
